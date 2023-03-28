@@ -129,7 +129,7 @@ public class Resource {
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response sayGoodBye() {
 
-		return Response.ok("Goodbye!!!!").build();
+		return Response.ok("Goodbye").build();
 
 	}
 }
