@@ -123,4 +123,13 @@ public class Resource {
 		return Response.ok("Hola a secas!!!!").build();
 
 	}
+	
+	@GET
+	@Path("/goodbye")
+	@Produces(MediaType.TEXT_PLAIN)
+	public Response sayGoodBye() {
+
+		return Response.ok("Adiós!!!!").build();
+
+	}
 }
